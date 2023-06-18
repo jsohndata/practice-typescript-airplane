@@ -1,9 +1,16 @@
-import Footer from "./Footer"
+import Intro from "./Intro";
+import Footer from "./Footer";
 
-const AppLayout = ({ children }: any) => {
+interface AppLayoutProps {
+  children: any;
+  title: string;
+}
+
+const AppLayout = ({ children, title }: AppLayoutProps) => {
 
   return (
     <>
+      <Intro title={title} />
       {children}
       <Footer />
     </>

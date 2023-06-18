@@ -1,15 +1,16 @@
+
 import AppLayout from "../layout/AppLayout";
 
-const Home = () => {
+const About = () => {
 
   return (
     <>
       <AppLayout 
-        title="Home Title">
-      <h2>Content for Home</h2>
+        title="About Title">
+        <h2>About Content</h2>
       </AppLayout>
     </>
   );
 }
 
-export default Home;
+export default About;
