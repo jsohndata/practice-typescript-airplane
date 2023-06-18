@@ -6,7 +6,7 @@ const Home = () => {
     <>
       <AppLayout 
         title="Home Title">
-      <h2>Content for Home</h2>
+        <h2>Content for Home</h2>
       </AppLayout>
     </>
   );
